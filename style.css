@@ -1,0 +1,74 @@
+/*element selector*/
+p{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+/*class selctor*/
+.para{
+    color: brown;
+}
+
+/*id selector*/
+
+#spclpara{
+    color: chartreuse;
+}
+
+/* id > attribute > classs > element > universal */
+
+/*Universal selector*/
+
+/**{
+    margin: 0;
+    padding: 0;
+
+}*/
+
+/* attribute selector*/
+
+a[href="https://www.google.com/"]{
+    color: black;
+}
+
+/*Child selector*/
+ul>li{
+    color: blue;
+}
+
+
+/* immediate sibling */
+
+#city{
+    color: gray;
+}
+
+/*psuedo class*/
+
+nav{
+    background-color: black;
+    height: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*nav a{
+    margin-left: 20px;
+}*/
+
+nav a:link{
+    color: white;
+}
+
+nav a:hover{
+    color: brown;
+}
+
+nav a:visited{
+    color: yellow;
+}
